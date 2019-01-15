@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="宋体" Size="9" />
+  <Class Name="SocketLibrary.SocketFactory">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SocketFactory.cs</FileName>
+      <HashCode>EAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketLibrary.Client">
+    <Position X="5.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Client.cs</FileName>
+      <HashCode>AAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAABAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketLibrary.Connection" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Connection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAACCAEAAAAAAAAAAAAAEAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="SocketLibrary.ConnectionCollection" Collapsed="true">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConnectionCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketLibrary.Message" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Message.cs</FileName>
+      <HashCode>EAAgABCAAAAAgQAAAEBARAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="SocketLibrary.Server">
+    <Position X="3.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Server.cs</FileName>
+      <HashCode>AACAAAAAACACAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketLibrary.SocketBase" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SocketBase.cs</FileName>
+      <HashCode>AAAGAAAAQAAAWDQAAMAAAAAIAAgIBAIAAAAAAKAIBgA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="SocketLibrary.SocketBase.BufferNotifyEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SocketBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="SocketLibrary.SocketBase.MessageEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SocketBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="SocketLibrary.SocketBase.MessageEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SocketBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="SocketLibrary.SocketBase.ConnectionEventArgs" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SocketBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="SocketLibrary.SocketBase.ConnectionHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SocketBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="SocketLibrary.UDPSocket">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <FileName>UDPSocket.cs</FileName>
+      <HashCode>AAJEgAQJKCAAAAEQCJRAIYAIEAwBAEAABhBTjAQAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SocketLibrary.UDPSocket.ClientEndPoint" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UDPSocket.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="SocketLibrary.UDPSocket.SOCKETDelegateArrive">
+        <TypeIdentifier>
+          <NewMemberFileName>UDPSocket.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="SocketLibrary.UDPPackage">
+    <Position X="0.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UDPPackage.cs</FileName>
+      <HashCode>AAgAAAAAABAAAAAAAAAAAAAAgAAAAAgAAAQAAABAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="SocketLibrary.UDPPackage.UdpData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UDPPackage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="SocketLibrary.UDPPackage.PaketHead" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UDPPackage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="SocketLibrary.MessageCollection">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MessageCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="SocketLibrary.BufferNotifyEventHandler">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>UDPSocket.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

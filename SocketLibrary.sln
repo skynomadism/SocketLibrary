@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketLibrary", "SocketLibrary.csproj", "{A9503D82-DBDB-4F2D-8C6A-4405600BBB27}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServerTest", "..\SocketServerTest\SocketServerTest.csproj", "{6A60F936-4960-4B60-91C5-A3201E972DC4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A9503D82-DBDB-4F2D-8C6A-4405600BBB27}.Debug.ActiveCfg = Debug|.NET
+		{A9503D82-DBDB-4F2D-8C6A-4405600BBB27}.Debug.Build.0 = Debug|.NET
+		{A9503D82-DBDB-4F2D-8C6A-4405600BBB27}.Release.ActiveCfg = Release|.NET
+		{A9503D82-DBDB-4F2D-8C6A-4405600BBB27}.Release.Build.0 = Release|.NET
+		{6A60F936-4960-4B60-91C5-A3201E972DC4}.Debug.ActiveCfg = Debug|.NET
+		{6A60F936-4960-4B60-91C5-A3201E972DC4}.Debug.Build.0 = Debug|.NET
+		{6A60F936-4960-4B60-91C5-A3201E972DC4}.Release.ActiveCfg = Release|.NET
+		{6A60F936-4960-4B60-91C5-A3201E972DC4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
